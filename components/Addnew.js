@@ -74,7 +74,7 @@ export default function Addnew({onAddItem}) {
 
   {errorMessage !== '' && <Text style={styles.errorText}>{errorMessage}</Text>}
 
-     <Button title = "Add Item" onPress={handleAddItem} ></Button>
+     <Button title = "Add to stock" onPress={handleAddItem} ></Button>
     </View>
   )
 }
